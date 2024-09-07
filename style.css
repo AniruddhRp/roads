@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/Assets/Hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 45%;
+    
+}
+
+#style1 {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+#style2 {
+    font-family: cobya, sans-serif;
+    color: #fff1ad;
+    font-size: 22rem;
+    font-weight: 800;
+}
+
+a {
+    background-color: white;
+    text-decoration: none;
+    height: 2.5rem;
+    padding: 0rem 1.25rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: -0.014em;
+    border-radius: 100rem;
+    color: #0c111c;
+    display: flex;
+    align-items: center;
+}
+
+
+#nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 50px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.17);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+
+#hero {
+    display: flex;
+    height: 100vh;
+    align-items: end;
+    justify-content: center;
+}
+
+#part1 {
+    height: 100vh;
+    background-color: white;
+}
+
+#part1 h2 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    letter-spacing: -0.022em;
+}
+
+#part1 p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    letter-spacing: -0.017em;   
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 605px;
+    padding: 50px
+}
+
+.bottom {
+    align-self: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 50px
+}
+
+.bottom h3  {
+    font-family: cobya, sans-serif;
+    color: #ffc727;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    letter-spacing: -0.022em;
+}
+
+.bottom > p {
+    color: #9ca3af;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: -0.006em;
+}
+
+#part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#part2{
+    background-color: #f3f1eb;
+    
+}
+
+
+#part2 img {
+    object-position: 50% 100%;
+    width: 50vw;
+    height: 98vh;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.txt-data> p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    letter-spacing: -0.017em;
+    font-weight: 300;
+}
+
+
+.txt-data h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    letter-spacing: -0.022em;
+}
+
+.txt-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    gap: 30px;
+}
+
+.divider {
+    width: 80%;
+    height: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #9ca3af;
+}
+
+.txt-stl{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;padding-top: 10px;
+    
+}
+
+
+
+
+
+/* .xxx {
+    display: grid;
+    grid-template-columns: repeat(2,100vw);
+    
+} */
+
+
+#sec2 {
+    display: grid;
+    grid-template-columns: repeat(2,100vw);
+    width: 200vw;
+    height: 100vh;
+    
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.txt-stl{
+    margin-bottom: 200px;
+}
+
